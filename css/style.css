@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+@media (min-width:0px) {
+body {
+  background-color: lightgrey;
+  font-family: 'Red Hat Display', sans-serif;
+  margin: 0 auto;
+  width: 80vw;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+  }
+p {
+  font-size: 16px;
+}
+.col-4 > p {
+  margin: 0;
+}
+.card {
+  border-radius: 15px;
+}
+#hero-img {
+  border-radius: 15px 15px 0 0;
+
+}
+#annual-plan {
+  padding: 0;
+}
+h2 {
+  font-weight: 900;
+}
+#cancel-order {
+  color:hsl(223, 47%, 23%) !important;
+  text-decoration: none;
+  font-weight: 900;
+}
+.card-body {
+  padding-bottom: 30px;
+}
+.col-4 > a:hover {
+  color:hsl(224, 23%, 55%) !important;
+  text-decoration: none;
+}
+.btn:hover {
+  background-color: hsl(224, 23%, 55%);
+}
+#cancel-order:hover {
+  color: black;
+}
+.btn {
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  border-radius: 8px;
+  padding: 10px px;
+  font-weight: 700;
+  box-shadow: 1px 15px 7px hsl(225, 100%, 94%);
+}
+.row {
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 12px;
+}
+}
+@media (min-width:1000px) {
+  body {
+    width: 27vw;
+
+  }
+  .btn {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border-radius: 8px;
+    padding: 10px 65px;
+    font-weight: 700;
+    box-shadow: 1px 15px 7px hsl(225, 100%, 94%);
+  }
+
+}
